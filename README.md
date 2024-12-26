@@ -1,0 +1,1 @@
+This repo demonstrates a common error in Firebase development: attempting to access data from a document snapshot before it has fully loaded. The `bug.js` file shows how this can lead to unexpected behavior, resulting in undefined values or errors. The `bugSolution.js` file presents a solution using promises or async/await to ensure data is loaded before access.
